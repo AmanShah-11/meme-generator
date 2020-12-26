@@ -5,9 +5,10 @@ import MemeGenerator from "./MemeGenerator"
 function App() {
   return (
     <div>
-      Hello World!
+      <Header />
+      <MemeGenerator />
     </div> 
   )
 }
 
-export default App;
+export default App
